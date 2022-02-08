@@ -1,0 +1,121 @@
+body{
+    text-align: center;
+    background-image: url('images/drumKit.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    /* background-origin: initial; */
+}
+.set{
+    margin: 10% auto;
+   
+}
+h1{
+    font-size: 5rem;
+    text-shadow:0.2rem 0 #e23535 ;
+    color: #91f772;
+}
+footer{
+    color: #ee072a;
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+}
+
+.drum{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 2rem;
+    font-size: 5rem;
+    font-weight: bold;
+    color: rgb(0, 252, 147);
+    margin: 1rem;
+    outline: none;
+    border: 0.5rem solid #ee072a;
+    text-shadow: 0.2rem 0 #8513c7;
+    
+}
+.w{
+    background-image: url('images/crash.png');
+}
+.a{
+    background-image: url('images/kick.png');
+}
+.s{
+    background-image: url('images/snare.png');
+}
+.d{
+    background-image: url('images/tom1.png');
+}
+.j{
+    background-image: url('images/tom2.png');
+}
+.k{
+    background-image: url('images/tom3.png');
+}
+.l{
+    background-image: url('images/tom4.png');
+}
+
+
+.pressed {
+    box-shadow: 0 0.2rem 0.4rem 0 #0fa8db;
+    opacity: 0.5;
+}
+
+/* Media */
+
+@media (max-width: 768px){
+    h1{
+        font-size: 3rem;
+        text-shadow:0.2rem 0 #e23535 ;
+    }
+    footer{
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+    .set{
+        margin: 10% auto;
+       
+    }
+    .drum{
+        width: 8rem;
+        height: 8rem;
+        border-radius: 1.5rem;
+        font-size: 3rem;
+        margin: 0.8rem;
+        outline: none;
+        border: 0.3rem solid #ee072a;
+        text-shadow: 0.1rem 0 #8513c7;
+        
+    }
+}
+@media (max-width: 576px){
+    h1{
+        font-size: 2rem;
+        margin-top: 4rem;
+        text-shadow:0.1rem 0 #e23535 ;
+    }
+    footer{
+        font-weight: bold;
+        font-size: 1rem;
+        margin-bottom: 0.7rem;
+    }
+    .set{
+        margin: 10% auto;
+       
+    }
+    .drum{
+        width: 5rem;
+        height: 5rem;
+        border-radius: 1.2rem;
+        font-size: 1.8rem;
+        margin: 0.5rem;
+        outline: none;
+        border: 0.2rem solid #ee072a;
+        text-shadow: 0.1rem 0 #8513c7;
+        
+    }
+}
