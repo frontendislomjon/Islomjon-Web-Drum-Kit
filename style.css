@@ -38,6 +38,10 @@ footer{
 }
 .w{
     background-image: url('images/crash.png');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: left top;
+    /* background-size: cover; */
 }
 .a{
     background-image: url('images/kick.png');
@@ -81,8 +85,8 @@ footer{
        
     }
     .drum{
-        width: 8rem;
-        height: 8rem;
+        width: 7rem;
+        height: 7rem;
         border-radius: 1.5rem;
         font-size: 3rem;
         margin: 0.8rem;
@@ -93,6 +97,15 @@ footer{
     }
 }
 @media (max-width: 576px){
+    body{
+        text-align: center;
+        background-image: url('images/drumKit.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        /* background-origin: initial; */
+    }
     h1{
         font-size: 3rem;
         margin-top: 4rem;
@@ -102,15 +115,14 @@ footer{
         font-weight: bold;
         font-size: 1rem;
         margin-bottom: 0.7rem;
-        margin-top: 50%;
+        margin-top: 10%;
     }
-    .set{
+    /* .set{
         margin: 10% auto;
-       
-    }
+    } */
     .drum{
         width: 5rem;
-        height: 5rem;
+        height: 6rem;
         border-radius: 1.2rem;
         font-size: 1.8rem;
         margin: 1rem;
