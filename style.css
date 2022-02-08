@@ -97,12 +97,12 @@ footer{
 @media (max-width: 576px){
     body{
         text-align: center;
-        background-image: url('images/Junior-Drum-Kit.jpg');
+        background-image: url('images/quyon.jpg.crdownload');
         background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
-        background-size: cover;
-        /* background-origin: initial; */
+        /* background-attachment: fixed; */
+        /* background-position: bottom ; */
+        /* background-size: cover; */
+        background-origin: initial;
     }
     h1{
         font-size: 3rem;
